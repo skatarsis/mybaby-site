@@ -1,0 +1,71 @@
+.headline {
+    width: 100%;
+    height: 115px;
+    padding: 29px 154px 24px 154px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    &__number {
+        margin: 0 0 0 49px;
+        font-size: 16px;
+        line-height: 20px;
+        white-space: nowrap;
+    }
+    &__social-icons {
+        margin: 0 0 0 26px;
+        display: flex;
+    }
+    &__social-icon {
+        display: block;
+        width: 28px;
+        height: 28px;
+        background-image: url(../img/icon-facebook.png);
+        &:last-child {
+            background-image: url(../img/icon-instagram.png);
+            margin: 0 0 0 5px;
+        }
+    }
+    &__search {
+        display: flex;
+        margin: 0 0 0 20px;
+        height: 41px;
+        width: 421px;
+        background-color: $color-grey-second;
+    }
+    &__search-area {
+        border: none;
+        padding: 0;
+        flex: 1;
+        background-color: $color-grey-second;
+        outline: none;
+    }
+    &__search-icon {
+        display: block;
+        margin: 3px 2px 0 1px;
+        height: 39px;
+        width: 39px;
+        background-image: url(../img/icon-search.png);
+        cursor: pointer;
+    }
+    &__currency {
+        margin: 0 0 0 74px;
+        display: flex;
+        align-items: center;
+    }
+    &__currency-item {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    &__choose-currency {
+        margin: 0 0 0 30px;
+        padding: 1px 0 1px 8px;
+        border: 1px solid #E5E5E5;
+        width: 66px;
+        height: 30px;
+        font-size: 11px;
+        line-height: 28px;
+        background-color: $color-grey-third;
+        appearance: none;
+        cursor: pointer;
+    }
+}

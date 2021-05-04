@@ -1,0 +1,19 @@
+@import "_veriables";
+@import "_header";
+@import "_headline";
+@import "_navigation";
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Ubuntu', sans-serif;
+    color: $text-color-black-first;
+    font-size: 18px;
+}
+
+.page {
+    width: 1440px;
+    min-height: 100vh;
+    margin: auto;
+}
