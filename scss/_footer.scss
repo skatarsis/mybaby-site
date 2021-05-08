@@ -1,0 +1,70 @@
+.footer {
+    min-width: 100%;
+    height: 167px;
+    margin: 63px 154px 7px 154px;
+    display: flex;
+    &__payments-info {
+        width: 288px;
+        display: flex;
+        flex-direction: column;
+    }
+    &__copyright {
+        color: $text-color-grey-second;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    &__payments {
+        margin: 37px 0 0 0;
+    }
+    &__secure-payments {
+        margin: 25px 0 0 0;
+        max-width: 100%;
+        align-self: center;
+    }
+    &__additional-navigation {
+        display: flex;
+        margin: 3px 0 0 0;
+    }
+    &__additional-nav-column {}
+}
+
+.payments {
+    &__item {
+        max-width: 100%;
+        &:nth-child(2) {
+            margin: 0 0 0 5px;
+        }
+        &:nth-child(3) {
+            margin: 0 0 0 8px;
+        }
+        &:nth-child(4) {
+            margin: 0 0 0 11px;
+        }
+        &:last-child {
+            margin: 0 0 0 12px;
+        }
+    }
+}
+
+.nav-links {
+    width: 152px;
+    &__title {
+        margin: 0;
+        font-size: 13px;
+        line-height: 15px;
+    }
+    &__list-item {
+        margin: 2px 0 0 0;
+        font-size: 12px;
+        line-height: 18px;
+        color: $text-color-grey-second;
+        &:first-child {
+            margin: 0;
+        }
+    }
+    &__list {
+        margin: 15px 0 0 0;
+        list-style-type: none;
+        padding: 0;
+    }
+}
